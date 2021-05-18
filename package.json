@@ -2,7 +2,7 @@
   "name": "react-turners-chatbot",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://jlow64.github.io/react-turners-chatbot",
+  "homepage": "https://jlow64.github.io/react-turners-chatbot",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
