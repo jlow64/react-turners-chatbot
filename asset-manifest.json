@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/react-turners-chatbot/static/js/main.a0ae04ce.chunk.js",
-    "main.js.map": "/react-turners-chatbot/static/js/main.a0ae04ce.chunk.js.map",
+    "main.js": "/react-turners-chatbot/static/js/main.eee4f55e.chunk.js",
+    "main.js.map": "/react-turners-chatbot/static/js/main.eee4f55e.chunk.js.map",
     "runtime-main.js": "/react-turners-chatbot/static/js/runtime-main.90bcb587.js",
     "runtime-main.js.map": "/react-turners-chatbot/static/js/runtime-main.90bcb587.js.map",
     "static/js/2.ed72e70c.chunk.js": "/react-turners-chatbot/static/js/2.ed72e70c.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.90bcb587.js",
     "static/js/2.ed72e70c.chunk.js",
-    "static/js/main.a0ae04ce.chunk.js"
+    "static/js/main.eee4f55e.chunk.js"
   ]
 }
