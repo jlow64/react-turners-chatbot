@@ -29,26 +29,26 @@ class App extends React.Component {
     //below are stylesheet props
     const containerStyle = {
       display: 'flex',
-      'flex-direction': 'column',
-      'vertical-align': 'middle',
+      flexDirection: 'column',
+      verticalAlign: 'middle',
       position: 'absolute',
       bottom: '0px',
       right: '0px',
      };
     
     const closeStyle = {
-      'padding-bottom': '5px',
+      paddingBottom: '5px',
     };
 
     const closeIconStyle = {
       background: '#da5050',
       width: '30px',
       height: '30px',
-      'border-radius': '50%',
-      'padding-top': '6px',
+      borderRadius: '50%',
+      paddingTop: '6px',
       color: 'white',
       cursor: 'pointer',
-      'font-size': '20px',
+      fontSize: '20px',
     };
 
     const popupStyle = {
@@ -68,13 +68,13 @@ class App extends React.Component {
     return (
       <div id="chatbot-container" style={containerStyle}>
         <div id="chatbot-close" style={closeStyle}>
-          {this.state.chatClicked? <i class="close icon" style={closeIconStyle} onClick={this.onClickClose}></i>: null}
+          {this.state.chatClicked? <i className="close icon" style={closeIconStyle} onClick={this.onClickClose}></i>: null}
         </div>
         <div>
           {this.state.chatClicked? <ChatBot token={this.state.token} />: null}
         </div>
         <div id="chatbot-button">
-          { this.state.chatClicked? null : <i class="comments outline icon" style={popupStyle} onClick={this.onClickOpen} ></i>  }
+          { this.state.chatClicked? null : <i className="comments outline icon" style={popupStyle} onClick={this.onClickOpen} ></i>  }
         </div>
       </div>
     );
