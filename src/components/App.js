@@ -9,6 +9,7 @@ class App extends React.Component {
     this.onStart();
   }
 
+  // API request to generate Token from secret key
   onStart = async () => {
     const response = await Token.get('/api/tokens', {});
     this.setState({
@@ -25,6 +26,7 @@ class App extends React.Component {
   }
 
   render() {
+    //below are stylesheet props
     const containerStyle = {
       display: 'flex',
       'flex-direction': 'column',
@@ -62,7 +64,7 @@ class App extends React.Component {
       cursor: 'pointer',
       fontSize: '40px',
     };
-
+    // creating an open/close message box by using chatClicked as a condition.
     return (
       <div id="chatbot-container" style={containerStyle}>
         <div id="chatbot-close" style={closeStyle}>
